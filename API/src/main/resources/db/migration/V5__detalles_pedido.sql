@@ -1,4 +1,4 @@
-CREATE TABLE detalles_pedido (
+CREATE TABLE IF NOT EXISTS detalles_pedido (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     pedido_id BIGINT NOT NULL,
     producto_id BIGINT NOT NULL,
