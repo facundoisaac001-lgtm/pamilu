@@ -23,4 +23,7 @@ class Producto(
 
     @Column(nullable = false)
     var stock: Int = 0,
+
+    @Column(name = "imageUrl", length = 255)
+    var imageUrl: String? = null,
 )
